@@ -52,11 +52,13 @@ The objecive of this problem is to make a team that consist k numbers of student
   2. But if there are not enough k different ranking from n students, then the result is "No" 
 
 Example:
+
 We have to make a team of 3 students from 5 students on that school.
 The ranking of the students in sequence are: 1,1,2,2,3
 Then the result we get is: "Yes" 1 3 5(there are another possibilty, but those are the first index of a value)
 
 Explanation:
+
 First, we have to know are there enough different number, and how much there are.
   Note:We also store the index of the first time a number show up in an array.
 Second,
