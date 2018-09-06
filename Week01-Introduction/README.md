@@ -1,6 +1,6 @@
-#Week1-Introduction
+# Week1-Introduction
 
-##Fraction-854A
+## Fraction-854A
 
 It is a program to find the biggest fraction we can make with two numbers with two condition:
   1. The numerator+denumerator is equal to the main number
