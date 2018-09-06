@@ -8,9 +8,11 @@ The aim is to find the biggest fraction we can make with two numbers with three 
   3. Both are integer
  
 Example:
+
 If we enter number 100, then the biggest fraction we can make is 49/51
  
 Explanation:
+
 We will get the biggest fraction if the numerator is the closest number possible to the numerator.
 Why? because the bigger the numerator will result the bigger number, but we have to remember condition 2.
 
@@ -32,9 +34,11 @@ The problem is about how to find additional crystal we needed to make three kind
 Then we have to find how many Crystals we need to make all the balls.
   
 Example:
+
 If we got two Yellow Crystals and three Blue Crystals, and we have to make 1 Yellow Ball, 1 Green Ball, and 1 Blue Ball, then we need three Yellow Crystals and four Blue Crystals. But we only have two Yellow Crystals and three Blue Crystals. So we need another Yellow Crystal(1) and Blue Crystal(1). So, we need two Crystals(one yellow and one blue)
 
 Explanation:
+
 First, We have to find how many Yellow and Blue Crystals we needed(separatedly)
 Second, subtract the crystal we need with the crystal we have(also separatedly)
   If the result is positive, then that's the amount of crystal we need.
