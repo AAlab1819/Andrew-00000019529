@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	int nStu,stuInTeam,rating[100],counter=0;
+	int nStu,stuInTeam,rating[100],counter1=0,counter2=0;
 	bool index[100];
 	
 	cin>>nStu>>stuInTeam;
@@ -18,14 +18,18 @@ int main(){
 				index[i]=false;
 		}
 			if(index[i]==true)
-				counter++;
+				counter1++;
 	}
 
-	if(counter==stuInTeam){
+	if(counter1>=stuInTeam){
 		cout<<"Yes"<<endl;
 		for(int i=0;i<nStu;i++){
-			if(index[i]==true)
+			if(index[i]==true){
 				cout<<i+1<<" ";
+				counter2++;
+			}
+			if(counter2==stuInTeam)
+				break;
 		}
 	}
 	else
