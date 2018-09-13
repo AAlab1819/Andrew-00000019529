@@ -31,15 +31,18 @@ int main(){
 	
 	if(n!=1)
 	for(int i=0;i<n;i++){
-		if(id[i]==id[i+1]&&id[i]==id[i+2]){
-			counter=-1;
-			break;
-		}
-		else if(id[i]==id[i+1]){
-			counter++;
-			i++;
+		if(id[i]!=0){
+			if(id[i]==id[i+1]&&id[i]==id[i+2]){
+				counter=-1;
+				break;
+			}
+			else if(id[i]==id[i+1]){
+				counter++;
+				i++;
+			}
 		}
 	}
+	
 	cout<<counter;
 	
 	return 0;
