@@ -64,9 +64,11 @@ If all of the level are passed, then it means they win. Otherwise they lose.
 
 Complexity:
 
-Worst Case: O(n).
-Average Case: θ(n).
-Best Case: Ω(n).
+Worst Case: O(n)
+
+Average Case: θ(n)
+
+Best Case: Ω(n)
 
 Since no matter what, the program will check from 1st level to n-th level.
 
@@ -95,8 +97,10 @@ If we found the bigger minimum radius then we'll replace the old one.
 
 Complexity:
 
-Worst Case: O(nlogn).
-Average Case: θ(nlogn).
-Best Case: Ω(nlogn).
+Worst Case: O(nlogn)
+
+Average Case: θ(nlogn)
+
+Best Case: Ω(nlogn)
 
 Note: It's the complexity of heapsort, I choose heapsort because it's the most stable one.
