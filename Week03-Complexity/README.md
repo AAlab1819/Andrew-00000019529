@@ -23,9 +23,9 @@ All we have to do is to check that the i-th dragon is one of k,l,m,n multiple or
 
 Complexity:
 
-Worst Case: O(n) -> loop from 1st dragon to d-th dragon
-Average Case: θ(n) -> if none of the torment input is 1, then loop from 1st dragon to d-th dragon
-Best Case: Ω(1) -> if k/l/m/n is one
+Worst Case: O(n) -> loop from 1st dragon to d-th dragon.
+Average Case: θ(n) -> if none of the torment input is 1, then loop from 1st dragon to d-th dragon.
+Best Case: Ω(1) -> if k/l/m/n is one.
 
 
 ## I Wanna Be the Guy-469A
@@ -62,9 +62,9 @@ If all of the level are passed, then it means they win. Otherwise they lose.
 
 Complexity:
 
-Worst Case: O(n)
-Average Case: θ(n)
-Best Case: Ω(n)
+Worst Case: O(n).
+Average Case: θ(n).
+Best Case: Ω(n).
 
 Since no matter what, the program will check from 1st level to n-th level.
 
@@ -93,8 +93,8 @@ If we found the bigger minimum radius then we'll replace the old one.
 
 Complexity:
 
-Worst Case: O(nlogn)
-Average Case: θ(nlogn)
-Best Case: Ω(nlogn)
+Worst Case: O(nlogn).
+Average Case: θ(nlogn).
+Best Case: Ω(nlogn).
 
 Note: It's the complexity of heapsort, I choose heapsort because it's the most stable one.
