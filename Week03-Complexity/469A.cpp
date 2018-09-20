@@ -31,7 +31,7 @@ int main(){
 			counter++;
 	
 	if(counter==n)
-		cout<<"I become the guy";
+		cout<<"I become the guy.";
 	else
 		cout<<"Oh, my keyboard!";
 }
