@@ -24,7 +24,9 @@ All we have to do is to check that the i-th dragon is one of k,l,m,n multiple or
 Complexity:
 
 Worst Case: O(n) -> loop from 1st dragon to d-th dragon
+
 Average Case: θ(n) -> if none of the torment input is 1, then loop from 1st dragon to d-th dragon
+
 Best Case: Ω(1) -> if k/l/m/n is one
 
 
