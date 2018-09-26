@@ -38,32 +38,55 @@ Example:
 
 (1)
 input:
+
 5 6 3
+
 ******
+
 *..*.*
+
 ******
+
 *....*
+
 ******
+
 2 2
+
 2 5
+
 4 3
+
 output:
+
 6
+
 4
+
 10
 
 (2)
+
 input:
+
 4 4 1
+
 ****
+
 *..*
+
 *.**
+
 ****
+
 3 2
+
 output:
+
 8
 
 Explanation:
-We use a recursive function to 
+We use a recursive function with parameters:
+1.
 
 Complexity:
