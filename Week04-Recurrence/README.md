@@ -19,12 +19,14 @@ This time we use a recursive function to find what is the maximum trial do we ha
 The parameters are:
   1. The numbers of the buttons -> will never change
   2. The numbers of the trials -> +1 everytime we choose rightly and +1+guessed button if we choose wrong button
+    
     note: we have to add the guessed number if we are wrong 'cause we have to press the guessed buttons since we start from the beginning
   3. Current guessed buttons -> +1 everytime we choose rightly
   4. How many choice of buttons we have left -> It start with number of buttons minus guessed buttons, then decreasing by one if we are wrong
 
 Complexity:
 
+O(n) where n is number of buttons
 
 ## Igor In the Museum-598B
 
@@ -36,57 +38,21 @@ Note: he could only see North, South, West, East from his position.
 
 Example:
 
-(1)
-input:
-
-5 6 3
-
-******
-
-*..*.*
-
-******
-
-*....*
-
-******
-
-2 2
-
-2 5
-
-4 3
-
-output:
-
-6
-
-4
-
-10
-
-(2)
-
-input:
-
-4 4 1
-
-****
-
-*..*
-
-*.**
-
-****
-
-3 2
-
-output:
-
-8
 
 Explanation:
 We use a recursive function with parameters:
-1.
+  1. Array of postion of the wall -> never change
+  2. x position of Igor -> will change if Igor move to North or South
+  3. y position of Igor -> will change if Igor move to East or West
+  4. Number of Row of the walls -> never change
+  5. Number of Column of the walls -> never change
+
+Everytime Igor move, he will explore to all directions(recalled the function)
+If Igor find an empty space, the he will see to exactly(right beside him) North, South, West, East direction from his postion.
+  note: If he sees a wall, then there's a picture there. Since he see a wall, he won't explore any further of that side (he can't pass through the wall.
 
 Complexity:
+
+Complexity:
+
+O(n* m) where n is number of row and m is number of column
