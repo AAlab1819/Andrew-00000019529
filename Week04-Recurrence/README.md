@@ -53,6 +53,4 @@ If Igor find an empty space, the he will see to exactly(right beside him) North,
 
 Complexity:
 
-Complexity:
-
 O(n* m) where n is number of row and m is number of column
