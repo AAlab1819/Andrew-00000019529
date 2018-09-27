@@ -9,8 +9,11 @@ The output of the program is the maximum times we have to press the buttons to f
 Example:
 
 If there are 2 buttons then the maximum trial is 3 times.
+
 If there are 3 buttons then the maximum trial is 7 times.
+
 If there are 4 buttons then the maximum trial is 14 times.
+
 etc.
 
 Explanation:
@@ -38,6 +41,23 @@ Note: he could only see North, South, West, East from his position.
 
 Example:
 
+<pre>
+input:
+5 6 3
+******
+*..*.*
+******
+*....*
+******
+2 2
+2 5
+4 3
+
+output:
+6
+4
+10
+</pre>
 
 Explanation:
 We use a recursive function with parameters:
