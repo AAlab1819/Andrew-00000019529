@@ -2,7 +2,7 @@
 
 ## Registration system-4C
 
-In this problem we have to make an online registration server. The input in this program is the username and the output of the program are:
+In this problem we have to make an online registration server. The input in this program is the number of user and their usernames and the output of the program are:
 	1. "OK", if the username has not taken
 	2. (name)(number of times the name has taken -1), if the username has taken
 
@@ -16,9 +16,9 @@ Andrew<br/>
 Andrew<br/>
 <br/>
 output:<br/>
-OK
-OK
-Andrew1
+OK<br/>
+OK<br/>
+Andrew1<br/>
 Andrew2
 
 Explanation:
@@ -31,6 +31,7 @@ If the username is taken for the first time then we print "OK", otherwise we pri
 
 Complexity:
 
+O(nlogn)
 
 ## Party-115A
 
@@ -56,8 +57,31 @@ We will check all employees' boss and recursively do it 'till we found the highe
 
 Complexity:
 
-## Party-115A
+O(n^2)
 
+## Christmas Spruce-913B
 
+The condition in this problem is that the root should have at least three children, otherwise it's not a spurce. The input is the number of leaves there are and the root of the i-th leaf. The output is "Yes" if it's a spurce and "No" if not.
 
+Example:
 
+input:<br/>
+7<br/>
+1<br/>
+1<br/>
+1<br/>
+2<br/>
+2<br/>
+2
+
+output:<br/>
+No
+
+Explanation:
+
+We have to check whether the leaf have child or not, if the leaf doesn't have a child then it means that leaf is a child of it's root.
+Ther other leaves that have child should have exactly 3 children. If all leaf meet these condition then it means it's a spurce, otherwise it's not.
+
+Complexity:
+
+O(n)
