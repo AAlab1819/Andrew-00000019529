@@ -31,7 +31,7 @@ If the username is taken for the first time then we print "OK", otherwise we pri
 
 Complexity:
 
-O(nlogn)
+O(nlogn) where n is the number of the users
 
 ## Party-115A
 
@@ -57,7 +57,7 @@ We will check all employees' boss and recursively do it 'till we found the highe
 
 Complexity:
 
-O(n^2)
+O(n^2) where n is the number of the employees
 
 ## Christmas Spruce-913B
 
@@ -84,4 +84,4 @@ Ther other leaves that have child should have exactly 3 children. If all leaf me
 
 Complexity:
 
-O(n)
+O(n) where n is the number of the leaves
