@@ -8,11 +8,11 @@ In this problem we have to make an online registration server. The output of the
 
 Example:
 
-4<br\>
-abacaba<br\>
-acaba<br\>
-abacaba<br\>
-acab<br\>
+4<br/>
+abacaba<br/>
+acaba<br/>
+abacaba<br/>
+acab<br/>
 
 Explanation:
 
