@@ -23,6 +23,7 @@ output:
 4.5
 5.0
 6.0
+
 <pre/>
 
 Explanation:
