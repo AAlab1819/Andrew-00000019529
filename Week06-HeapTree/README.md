@@ -1,4 +1,4 @@
-  # Week5-BST
+  # Week6-HeapTree
 
 ## Find The Running Median
 
@@ -24,7 +24,7 @@ output:
 5.0
 6.0
 
-<pre/>
+<pre\>
 
 Explanation:
 
