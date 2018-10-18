@@ -49,7 +49,6 @@ Each contains 6 space separated numbers representing Topic ID, current z-score -
 Example:
 
 <pre>
-
 input:
 8
 1003 100 4 0 0 0
@@ -67,7 +66,6 @@ output:
 1001 400
 999 200
 1007 150
-
 </pre>
 
 Explanation:
