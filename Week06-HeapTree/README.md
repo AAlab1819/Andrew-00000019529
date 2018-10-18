@@ -23,7 +23,6 @@ output:
 4.5
 5.0
 6.0
-
 <pre\>
 
 Explanation:
@@ -69,7 +68,7 @@ output:
 999 200
 1007 150
 
-<pre/>
+</pre>
 
 Explanation:
 
