@@ -17,6 +17,8 @@ output:
 
 Explanation: 
 
+The main point is Sereja have to make a pattern between odd and even pizza.
+
 Complexity:
 
 O(n)
