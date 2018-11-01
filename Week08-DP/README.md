@@ -1,4 +1,4 @@
-  # Week7-Greedy
+  # Week8-DP
 
 ## Kuriyama Mirai's Stones-433B
 
@@ -21,24 +21,26 @@ Complexity:
 
 O(n^2), where n is the number of question
 
-## Partition-946A
+## Party Lemonade-913C
 
-In this problem, we have to make a partition from a set of numbers to two sets of numbers, where B(first set) - C(second set) is the highest
+In this problem we have to find the cheapest way to buy L liter of lemonade, where the every bottle has different cost, and the volume of i-th bottle is 2^i-1
 
 Example:
 
-input:
+There are 4 types of bottle and we need 12 liters of lemonade, where the costs are: 20 30 70 90
 
-1 2 -3
+So the first bottle is 1 liter, the second is 2 liters, the third is 4 liters, and the fourth is 8 liters.
 
-output:
-
-6 -> (1+2)-(-3)
+Our best way to buy 12 liters of lemonade is 1 bottle of 8 litters and 2 bottles of 2 liters, where the cost is 150
 
 Explanation:
 
-All we have to do is separate the positive numbers and negative numbers, cause minus of minus is plus, which will make the difference between B and C bigger.
+The first thing we need to find is the value of the bottle, or we can say L/price, because we will use the bottle with the biggest value. .
+
+Then we'll sort the value, and then find the total price from that rank of value. (We can use one type of bottle more than once)
+
+I use reverse value (price/L) because I don't change my heapsort, so if I reverse it, it will "reverse" the sort, and I dont have to sort it from the biggest to the smallest.
 
 Complexity:
 
-O(n)
+O(nlogn), complexity of heapsort
