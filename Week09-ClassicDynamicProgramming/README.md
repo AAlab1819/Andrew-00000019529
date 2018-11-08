@@ -3,7 +3,7 @@
 ## 10130 - SuperSale
 
 In this problem we have to count how much "value" a family can carry, from some variety of items. Every family has different number of 
-family members, and every family member has different weight limit.
+family members and every family member has different weight limit.
 
 Example:
 
