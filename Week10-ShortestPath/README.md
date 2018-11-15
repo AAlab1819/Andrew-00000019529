@@ -24,7 +24,6 @@ So, the cheapest route is 1->4->3->5 where the cost is 1+3+1=5, even though the 
 Explanation: 
 
 Dijkstra's rules/steps:
-
   1.Every time that we set out to visit a new node, we will choose the node with the smallest known distance/cost to visit first.
   2.Once we’ve moved to the node we’re going to visit, we will check each of its neighboring nodes.
   3.For each neighboring node, we’ll calculate the distance/cost for the neighboring nodes by summing the cost of the edges that lead to the node we’re checking from the starting vertex.
