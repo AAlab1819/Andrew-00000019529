@@ -58,6 +58,16 @@ Actually, the bus can arrive in just one hour (1 => 4), but train fastest time i
 
 Explanation: 
 
-First of all, the have to finde the adjacency matrix
+First of all, the have to find the adjacency matrix of this problem, for the example above, the adjency matrix is:
+
+     1     2     3     4
+
+1    0     0     1     0  
+
+2    0     0     0     0
+
+3    1     0     0     1
+
+4    0     0     1     0
 
 Complexity:
