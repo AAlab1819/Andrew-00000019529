@@ -71,5 +71,6 @@ First of all, the have to find the adjacency matrix of this problem, for the exa
 
 4  |  0     0     1     0
 ```
+So, the '0' represents the road and the '1' represents the rails. In this case, we find the shortest path using Breadth First Search (BFS)
 
-Complexity:
+Complexity: O(n^2)
