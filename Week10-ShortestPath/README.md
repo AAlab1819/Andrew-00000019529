@@ -30,7 +30,7 @@ Dijkstra's rules/steps:
   3. For each neighboring node, we’ll calculate the distance/cost for the neighboring nodes by summing the cost of the edges that lead to the node we’re checking from the starting vertex.
   4. Finally, if the distance/cost to a node is less than a known distance, we’ll update the shortest distance that we have on file for that vertex.
 
-Complexity:O(nlogn)
+Complexity: O(nlogn) where n is the number of towns
 
 ## The Two Routes - 601A
 
@@ -73,4 +73,4 @@ First of all, the have to find the adjacency matrix of this problem, for the exa
 ```
 So, the '0' represents the road and the '1' represents the rails. Then we'll find the shortest path using Breadth First Search (BFS)
 
-Complexity: O(n^2)
+Complexity: O(n^2) where n is the number of towns
