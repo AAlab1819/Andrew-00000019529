@@ -34,10 +34,30 @@ Complexity:O(nlogn)
 
 ## The Two Routes - 601A
 
+In this problem, we have to find the smallest time a train and a bus can arrive at the SAME time. The rule is, if there are a rail between the 2 towns, then the bus can't use that path (there are no roads). The output of the program is:
 
+  1. The smallest same time of 2 different vihicles (bus and train) from 1 to N, if possible
+  2. -1 if it's impossible
+  
+Note: The rail and the road is bidirectional.
 
 Example:
 
+The rails are:
+
+Town 1 <=> Town 3
+Town 3 <=> Town 4
+
+So, the roads are:
+
+Town 1 <=> Town 2
+Town 1 <=> Town 4
+Town 2 <=> Town 4
+
+Actually, the bus can arrive in just one hour (1 => 4), but train fastest time is 2 hours (1 => 3 => 4). So, the bus have to adjust the train, so the bus will choose other path (1 => 2 => 4), where the time is also 2 hours.
+
 Explanation: 
+
+First of all, the have to finde the adjacency matrix
 
 Complexity:
