@@ -60,7 +60,8 @@ Explanation:
 
 First of all, the have to find the adjacency matrix of this problem, for the example above, the adjency matrix is:
 
------1     2     3     4
+'''Java
+     1     2     3     4
 
 1    0     0     1     0  
 
@@ -69,5 +70,6 @@ First of all, the have to find the adjacency matrix of this problem, for the exa
 3    1     0     0     1
 
 4    0     0     1     0
+'''
 
 Complexity:
