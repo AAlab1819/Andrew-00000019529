@@ -60,7 +60,7 @@ Explanation:
 
 First of all, the have to find the adjacency matrix of this problem, for the example above, the adjency matrix is:
 
-     1     2     3     4
+-----1     2     3     4
 
 1    0     0     1     0  
 
