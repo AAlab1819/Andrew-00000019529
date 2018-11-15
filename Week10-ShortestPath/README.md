@@ -12,12 +12,12 @@ Example:
 
 | Source  | Destination | Cost | 
 | :---: | :---: | :---: |
-| 1  | 2 | 2 |
-| 2  | 5 | 5 |
-| 2  | 3 | 4 |
-| 1  | 4 | 1 |
-| 4  | 3 | 3 |
-| 3  | 5 | 1 |
+| 1 | 2 | 2 |
+| 2 | 5 | 5 |
+| 2 | 3 | 4 |
+| 1 | 4 | 1 |
+| 4 | 3 | 3 |
+| 3 | 5 | 1 |
 
 So, the cheapest route is 1->4->3->5 where the cost is 1+3+1=5, even though the shortest path is 1->2->5 but the cost is 2+5=7.
 
