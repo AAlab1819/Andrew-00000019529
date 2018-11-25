@@ -2,6 +2,8 @@
 
 ## Insomnia Cure-148A
 
+[Submission](https://codeforces.com/contest/148/submission/46126242)
+
 In this problem we have to help the reverse sleeping beauty to torment every multiples of k-th,l-th,m-th, and n-th dragon out of d dragons.
 Where d are and input of how many dragons there are, and k,l,m,n is also an input that will determine the dragons fate.
   1. The multiples of k-th dragons got punched in the face with a frying pan
@@ -31,6 +33,8 @@ Best Case: Ω(1) -> if k/l/m/n is one
 
 
 ## I Wanna Be the Guy-469A
+
+[Submission](https://codeforces.com/contest/469/submission/46126176)
 
 Together we stand, divided we fall! Two competitive gamers are going to play the same game. 
 But it turns out they don't always can finish all the levels by theirselves.
@@ -73,6 +77,8 @@ Best Case: Ω(n)
 Since no matter what, the program will check from 1st level to n-th level.
 
 ## Vanya and Lanterns-492A
+
+[Submission](https://codeforces.com/contest/492/submission/46126427)
 
 In this case we have to help Vanya to find out what's the minimum radius that a lamp needed if she wants to light 100% of the street of length l by n lanterns.
 The length and number of lanterns are inputs, and the output is the minumum radius of lamp.
