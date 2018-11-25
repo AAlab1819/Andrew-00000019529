@@ -2,6 +2,8 @@
 
 ## Coupons and Discounts-731B
 
+[Submission](https://codeforces.com/contest/731/submission/46126856)
+
 In this problem we have to see if there is any possibility for Sereja to always get the coupons or discount for n days of training.
 
 Example:
@@ -25,6 +27,8 @@ O(n)
 
 ## Partition-946A
 
+[Submission](https://codeforces.com/contest/946/submission/46126866)
+
 In this problem, we have to make a partition from a set of numbers to two sets of numbers, where B(first set) - C(second set) is the highest
 
 Example:
@@ -46,6 +50,8 @@ Complexity:
 O(n)
 
 ## File Name-978B
+
+[Submission](https://codeforces.com/contest/978/submission/46126879)
 
 In this problem, we have to count how many fobidden characters there are, where 'xxx' is the forbidde characters.
 
