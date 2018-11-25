@@ -2,6 +2,8 @@
 
 ## Buttons-268B
 
+[Submission](https://codeforces.com/contest/268/submission/46126441)
+
 In this problem we have to find the worst case of finding a combination of an password from n(n is input) buttons. 
 The rule is you are going to go back to the beginning if you press the wrong button.
 The output of the program is the maximum times we have to press the buttons to find the pattern.
@@ -32,6 +34,8 @@ Complexity:
 O(n) where n is number of buttons
 
 ## Igor In the Museum-598B
+
+[Submission](https://codeforces.com/contest/598/submission/46126818)
 
 This time we have to count how many picture Igor see while he is trapped in the maze (lol just kidding, museum of course).
 First we have to make the walls of the museum, where * is a wall and . is empty. 
