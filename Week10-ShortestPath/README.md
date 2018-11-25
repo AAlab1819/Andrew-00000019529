@@ -2,6 +2,8 @@
 
 ## Dijkstra? - 20C
 
+[Submission](https://codeforces.com/contest/20/submission/46127370)
+
 In this problem we have to find the cheapest path using Dijkstra. 
 
 Note: Dijkstra’s algorithm can be used to determine the shortest(cheapest in this case) path from one node in a graph to every other node within the same graph data structure, provided that the nodes are reachable from the starting node.
@@ -33,6 +35,8 @@ Dijkstra's rules/steps:
 Complexity: O(nlogn) where n is the number of towns
 
 ## The Two Routes - 601A
+
+[Submission](https://codeforces.com/contest/601/submission/46127376)
 
 In this problem, we have to find the smallest time a train and a bus can arrive at the SAME time. The rule is, if there are a rail between the 2 towns, then the bus can't use that path (there are no roads). The output of the program is:
 
