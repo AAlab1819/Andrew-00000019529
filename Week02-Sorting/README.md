@@ -2,6 +2,8 @@
 
 ## Dragons-230A
 
+[Submission](https://codeforces.com/contest/230/submission/46126023)
+
 In this problem we have to help Kirito to pass this level. In order to pass this level, he has to kill all of the dragons. Both Kirito and the dragons have strength (Some kind of Battle Power). Kirito can kill the dragon if only he has higher strength than the dragon. Everytime Kirito kills a dragon, he'll get some additional strength. There are 2 possible outcomes when Kirito fights the dragons:
   1. If there is any possibility that Kirito kills all of the dragons then print "YES"
   2. Else if, Kirito loses and of course he's dead lol, then we print "NO"
@@ -22,6 +24,8 @@ In order to choose the best order of dragon Kirito has to fight, first of all we
 By sorting the strength of the dragons, Kirito will fight the dragon from the weakest one to the strongest one. So, he doesn't have to worry about the stronger dragon if he doesn't even can fight the weakest one LOL.
  
 ## Spyke Talks-291A
+
+[Submission](https://codeforces.com/contest/291/submission/46126052)
 
 In this problemset, we have to help Polycarpus the really wants to know director of a large corporation to figre out which and how many of his secretaries that are talking with Spyke Talk (feels like I have ever heard it hmmm). Every channel has a unique number which only could connect 2 people in one call. If the number is 0 then the secretary is not using the Spyke talk, and if there are more than 2 same numbers(ex: 1 1 2 1), then it means Polycarpus has a wrong record. The secretary can use Spyke Talk to people outside the corporation by the way.
 
@@ -49,6 +53,8 @@ So all we have to do now is to check how many same numbers on the right side of 
   (we don't have to check if there are more than 2 since more equals than 2 is wrong)
 
 ## Oath of the Night's Watch-768A
+
+[Submission](https://codeforces.com/contest/768/submission/46126090)
 
 HELLO GAME OF THRONES FANS! LOL
 This time we have to help Jon Snow to choose the stewards that meet the requirement Jon wants.The requirement is simple, since everyone has a different strength (measured by integer), Jon only wants to choose the steward that has someone that is smaller AND bigger strength than him. In short, Jon doesn't want to choose the "weakest" and "strongest" steward. The outcome of this program is the number of stewards that will join Jon.
