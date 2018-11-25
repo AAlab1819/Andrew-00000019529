@@ -2,6 +2,8 @@
 
 ## Fraction-854A
 
+[Submission](https://codeforces.com/contest/854/submission/46125934)
+
 The aim is to find the biggest fraction we can make with two numbers with three conditions:
   1. The sum of the numerator and the denumerator is equal to the main number
   2. The numerator is bigger than the denumerator
@@ -46,6 +48,8 @@ Second, subtract the crystal we need with the crystal we have(also separatedly)
 Third, sum the Yellow and Blue Crystal, then we get the amount of crystal we need from both colors.
 
 ## Diverse Team-988A
+
+[Submission](https://codeforces.com/contest/988/submission/46125986)
 
 The objecive of this problem is to make a team that consist k numbers of student which all have different ranking from n number of students. There are 2 possible outcomes:
   1. If there are k or more different ranking from n students, then the result is "Yes" and the index of the student
