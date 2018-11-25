@@ -2,6 +2,8 @@
 
 ## Registration system-4C
 
+[Submission](https://codeforces.com/contest/4/submission/46126764)
+
 In this problem we have to make an online registration server. The input in this program is the number of user and their usernames and the output of the program are:
 	1. "OK", if the username has not taken
 	2. (name)(number of times the name has taken -1), if the username has taken
@@ -35,6 +37,8 @@ O(nlogn) where n is the number of the users
 
 ## Party-115A
 
+[Submission](https://codeforces.com/contest/115/submission/46126759)
+
 To cut the power of seniority in a party, we have to make a group in a party where nobody will be in the same group with their boss.The input is i-th employee's boss or -1 if the employee doesn't have a boss and  the output is the minimum number we can make with the condition before. 
 
 Example:
@@ -60,6 +64,8 @@ Complexity:
 O(n^2) where n is the number of the employees
 
 ## Christmas Spruce-913B
+
+[Submission](https://codeforces.com/contest/913/submission/46126922)
 
 The condition in this problem is that the root should have at least three children, otherwise it's not a spurce. The input is the number of leaves there are and the root of the i-th leaf. The output is "Yes" if it's a spurce and "No" if not.
 
