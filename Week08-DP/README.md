@@ -2,6 +2,8 @@
 
 ## Kuriyama Mirai's Stones-433B
 
+[Submission](https://codeforces.com/contest/433/submission/46127257)
+
 We have to count Kuriyama Mirai's Stones between l-th and k-th base on 2 conditions:
   1. BASE ON WHEN SHE GOT IT 
   2. BASE ON HOW MUCH IT COST (SORTED)
@@ -22,6 +24,8 @@ Complexity:
 O(n^2), where n is the number of question
 
 ## Party Lemonade-913C
+
+[Submission](https://codeforces.com/contest/913/submission/46127402)
 
 In this problem we have to find the cheapest way to buy L liter of lemonade, where the every bottle has different cost, and the volume of i-th bottle is 2^i-1
 
